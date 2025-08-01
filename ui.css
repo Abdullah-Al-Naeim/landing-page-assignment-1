@@ -1,6 +1,7 @@
 body{
   display: flex;
   flex-direction: column;
+  background-color: #6a66f018;
 }
 /* FONTS */
 .raleway-medium {
@@ -94,7 +95,6 @@ nav ul li {
 main {
   gap: 116px;
   margin-bottom: 116px;
-  background-color: #4E47FF05;
 
 }
 
@@ -171,7 +171,7 @@ main {
 }
 
 /* Review Section */
-.review-container {
+ .review-container {
   padding: 50px 80px;
   border-radius: 24px;
   max-width: 1140px;
@@ -236,4 +236,82 @@ main {
   font-size: 12px;
   color: #B3B3B3;
   margin: 0;
+}
+
+
+/* newsletter STYLE */
+.newsletter {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+.newsletter-title {
+    color: #000000;
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    width: 400px;
+    margin-right: 0;
+}
+
+.newsletter p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0; 
+}
+
+.cmn {
+    width: 100%;
+    padding: 18px 24px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    line-height: 1.2;
+    background-color: #ffffff; 
+
+    outline: none; 
+}
+
+.form-text {
+    color: #a0a0a0;
+}
+
+.connect {
+    color: white;
+    width: 100%;
+    /* Use padding to control the button's height */
+    padding: 18px;
+    text-align: center;
+    justify-content: center; 
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px; /* Add some space above the button */
+}
+textarea.form-text {
+    width: 100%;
+    height: 100px; 
+    padding: 18px 24px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+    outline: none;
 }
